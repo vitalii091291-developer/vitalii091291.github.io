@@ -2,10 +2,10 @@ const myImage = document.querySelector("img")
 
 myImage.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/nature.jfif") {
-        myImage.setAttribute("src", "images/lake.jfif");
+    if (mySrc === "nature.jfif") {
+        myImage.setAttribute("src", "lake.jfif");
     } else {
-        myImage.setAttribute("src", "images/nature.jfif");
+        myImage.setAttribute("src", "nature.jfif");
 
     }
 
